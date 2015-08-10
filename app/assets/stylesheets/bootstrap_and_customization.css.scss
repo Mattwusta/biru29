@@ -3,10 +3,25 @@
 $body-bg:                                                   white;
 $font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height:                                        45px;
-$navbar-default-bg:                          white;
+$navbar-default-bg:                          transparent;
 $navbar-default-brand-color:      #c0392b;
 $brand-primary:                                    #c0392b;
 $jumbotron-bg:                                         white;
+
+
+
+
+/* changing the navbar to transparent */
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
 
 @import 'bootstrap';
 
